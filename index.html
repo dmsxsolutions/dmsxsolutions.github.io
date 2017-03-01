@@ -12,6 +12,14 @@
       html, body {
   margin:0;
   padding:0;
+
+}
+.radiohead{
+    height: 30px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+              
 }
           
 .earth{
@@ -38,8 +46,26 @@
     color: #40ff00;
     font-family: monospace;
     
-}          
-
+}
+          
+.header{
+    font-family: 'Open Sans';
+    height: 40px;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.footer{
+    font-family: 'Open Sans';
+    height: 60px;
+    width: 100%;
+    text-align: right;
+    padding-right: 50px;
+    background-color: black;
+    color: white;
+}
 .comic {
   display:flex;
   flex-wrap:wrap;
@@ -164,10 +190,13 @@
     </style>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+</head>
 
 </head>
 
 <body>
+  <div class="header"><p>DMSX SOLUTIONS</p></div>
   <article class="comic">
   <div class="panel">
     <p class="text top-left">... planet earth .. 2017</p>
@@ -206,6 +235,6 @@
   </div>
 </article>
   
-  
+<div class="footer"> <img src="images/favicon.ico" class="radiohead"/> </div>  
 </body>
 </html>
